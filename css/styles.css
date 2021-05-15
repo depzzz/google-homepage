@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css?family=Product+Sans:100,300,400,500,700,900,100i,300i,400i,500i,700i,900i");
+.google-font-500 {
+  font-family: "Product Sans";
+  font-style: normal;
+  font-weight: 500;
+  color: #5f6368;
+  font-size: 1.125rem;
+}
+
+main div {
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  flex-shrink: 0;
+  box-sizing: border-box;
+  min-height: 150px;
+  max-height: 290px;
+  height: calc(100% - 560px);
+}
+main img {
+  height: 92px;
+  aspect-ratio: auto 272/92;
+  width: 272px;
+}
+
+.homepage-image {
+  max-height: 100%;
+  max-width: 100%;
+  object-fit: contain;
+  object-position: center bottom;
+  width: auto;
+}
+
+form input[type=text] {
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  border-color: rgba(223, 225, 229, 0);
+  box-shadow: 0 1px 6px rgba(32, 33, 36, 0.28);
+  background: #fff;
+  display: flex;
+  border-radius: 24px;
+  height: 44px;
+  margin: 20px auto;
+  width: 482px;
+  max-width: 584px;
+  padding: 0px 30px;
+}
+form input[type=text]:focus {
+  outline: none;
+}
+
+/*# sourceMappingURL=styles.css.map */
