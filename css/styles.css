@@ -50,11 +50,12 @@ form input[type=text] {
   padding: 0px 30px;
   border-color: rgba(223, 225, 229, 0);
   box-shadow: 0 1px 6px rgba(32, 33, 36, 0.28);
+  font-family: "Product Sans", sans-serif;
 }
 form input[type=text]:focus {
   outline: none;
 }
-form input[type=submit] {
+form input[type=submit], form input[type=button] {
   background-color: #f8f9fa;
   border: 1px solid #f8f9fa;
   border-radius: 4px;
@@ -70,7 +71,7 @@ form input[type=submit] {
   cursor: pointer;
   user-select: none;
 }
-form input[type=submit]:hover {
+form input[type=submit]:hover, form input[type=button]:hover {
   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
   background-color: #f8f9fa;
   border: 1px solid #dadce0;
