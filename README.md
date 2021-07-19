@@ -1,4 +1,5 @@
-# CS50 Web Project 1 - Google Homepage (Live Preview [Here](https://sk8rnetwork.github.io/google-homepage/))
+# CS50 Web Project 1 - Google Homepage 
+## Live Preview [Here](https://sk8rnetwork.github.io/google-homepage/)
 > *Project Specifications* - [Search](https://cs50.harvard.edu/web/2020/projects/0/search/)
 
 ## Page 1 - Web Search
